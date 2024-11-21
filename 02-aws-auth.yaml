@@ -11,6 +11,10 @@ data:
       - expense-trainee
       userarn: arn:aws:iam::278768175210:user/suresh
       username: suresh 
+    - groups:
+      - expense-admin
+      userarn: arn:aws:iam::278768175210:user/suresh
+      username: ram   
 kind: ConfigMap
 metadata:
   creationTimestamp: "2024-11-21T02:21:13Z"
